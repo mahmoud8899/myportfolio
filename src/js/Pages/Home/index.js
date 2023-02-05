@@ -4,6 +4,8 @@ import UrlImage from '../../../utlis/image'
 import About from "../About";
 import Work from "../work";
 import Skills from '../Skills/index'
+import Contact from "../contact";
+import Testimonials from "../Testimonials";
 
 
 const Home = () => {
@@ -11,7 +13,22 @@ const Home = () => {
 
     return (
         <Container fluid>
-  
+                        <div className="flex column fixed" >
+                <div className="socialmedia  margintopandbottom boxshadow BackgroundWhite border-radius flex align-items center">
+                    <Image
+                        src={UrlImage.facebook}
+                        className='iconImagex cursor'
+                    />
+                </div>
+                <div className="socialmedia  boxshadow BackgroundWhite border-radius flex align-items center">
+                    <Image
+                        src={UrlImage.instagram}
+                        className='iconImagex cursor'
+                    />
+                </div>
+
+            </div>
+
             <Row className="BackgroundHome justify-content-center Background align-items">
                 <div className="margintopten " />
                 <Col xs={12} sm={12} md={4} lg={4} className='marginbottom' >
@@ -84,12 +101,16 @@ const Home = () => {
 
 
             </Row>
-            <About />
-        
-              <Work  />
-              <Skills   />
-          
 
+            <About />
+
+            <Work />
+            <Skills />
+            <Testimonials />
+            <Contact />
+
+
+ 
 
 
         </Container>

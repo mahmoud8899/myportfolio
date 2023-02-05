@@ -38,7 +38,7 @@ const TheNavBar = () => {
             </div>
           </div>
         </Col>
-        <Col xs={12} sm={12} md={8} lg={8}>
+        <Col xs={12} sm={12} md={6} lg={5}>
           <div className={css.hidden}>
             <ul>
               <li className='des-weight des margintopandbottom  descolor NavBarTrasition'>Home</li>
