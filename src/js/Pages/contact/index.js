@@ -21,7 +21,7 @@ const Contact = (props) => {
 
 
     return (
-        <Row className="BackgroundWhite justify-content-center">
+        <Row className="BackgroundWhite justify-content-center" id='contact'>
             <div className="margintopten " />
             <Col xs={12} sm={12} md={10} lg={6} className='marginbottom' >
 

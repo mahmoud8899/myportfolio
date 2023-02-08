@@ -135,7 +135,7 @@ const Skills = () => {
 
 
     return (
-        <Row className="justify-content-center align-items ">
+        <Row className="justify-content-center align-items" id='skils'>
             <div className="margintopten " />
             <Col xs={12} sm={12} md={12} lg={12} className='marginbottom ' >
 

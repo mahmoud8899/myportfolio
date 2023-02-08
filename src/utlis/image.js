@@ -28,6 +28,15 @@ import Mutasem from './image/icons/mutasem.jpeg'
 import person from './image/person.png'
 import instagram from './image/socialmedia/instagram.png'
 import facebook from './image/socialmedia/xx.png'
+import omr from './image/icons/omr.jpeg'
+import yosef from './image/icons/yosef.png'
+import moh from './image/icons/moh.jpeg'
+import serverside from './image/website/server-side.png'
+import Ecommerce from './image/website/ecommerce.png'
+
+import kingofpre from './image/website/kingofpre.png'
+import latt from './image/website/latt.png'
+
 let UrlImage = {
     profile: Profile,
     js: Js,
@@ -52,12 +61,19 @@ let UrlImage = {
     socket: socket,
     ts: ts,
     webpack: webpack,
-    Email : Email,
-    phone : phone,
+    Email: Email,
+    phone: phone,
     Mutasem: Mutasem,
     person: person,
-    instagram :instagram,
-facebook : facebook,
+    instagram: instagram,
+    facebook: facebook,
+    omr: omr,
+    yosef: yosef,
+    moh :moh,
+    serverside : serverside,
+    Ecommerce: Ecommerce,
+    kingofpre : kingofpre,
+    latt : latt
 }
 
 export default UrlImage

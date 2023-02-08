@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: './src/js/index.js',
-    mode: 'production',
+    mode: 'development',
     output: {
         filename: 'index.js',
         path: path.resolve(__dirname, 'build')
@@ -68,10 +68,10 @@ module.exports = {
 
     ],
 
-    // devServer: {
-    //     // compress: true,
-    //     port: 3000,
-    //     // open: true,
-    //     historyApiFallback: true,
-    // },
+    devServer: {
+        // compress: true,
+        port: 3000,
+        // open: true,
+        historyApiFallback: true,
+    },
 }

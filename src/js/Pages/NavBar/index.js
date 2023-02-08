@@ -41,12 +41,35 @@ const TheNavBar = () => {
         <Col xs={12} sm={12} md={6} lg={5}>
           <div className={css.hidden}>
             <ul>
-              <li className='des-weight des margintopandbottom  descolor NavBarTrasition'>Home</li>
-              <li className='des-weight des margintopandbottom  descolor NavBarTrasition'>about</li>
-              <li className='des-weight des margintopandbottom  descolor NavBarTrasition'>work</li>
-              <li className='des-weight des margintopandbottom  descolor NavBarTrasition'>skils</li>
-              <li className='des-weight des margintopandbottom  descolor NavBarTrasition'>testimonials</li>
-              <li className='des-weight des margintopandbottom  descolor NavBarTrasition'>contact</li>
+              <li >
+                <a  className='des-weight des  descolor NavBarTrasition list-style' 
+                href='#home' >home</a>
+              </li>
+              <li >
+              <a 
+              className='des-weight des   descolor NavBarTrasition list-style'
+              href='#about'>about</a>
+                </li>
+              <li >
+              <a 
+              className='des-weight des   descolor NavBarTrasition list-style'
+               href='#work'>work</a>
+                </li>
+              <li>
+              <a
+               className='des-weight des   descolor NavBarTrasition list-style'
+               href='#work'>skils</a>
+                </li>
+              <li >
+              <a 
+              className='des-weight des   descolor NavBarTrasition list-style'
+              href='#testimonials'>testimonials</a>
+                </li>
+              <li >
+              <a 
+              className='des-weight des   descolor NavBarTrasition list-style'
+              href='#testimonials'>contact</a>
+                </li>
             </ul>
 
           </div>

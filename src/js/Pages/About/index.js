@@ -29,7 +29,7 @@ const About = () => {
 
 
     return (
-        <Row className="BackgroundWhite justify-content-center margintopten ">
+        <Row className="BackgroundWhite justify-content-center margintopten " id='about'>
             <Col xs={12} sm={10} md={8} lg={8}>
                 <div className="flex column align-items">
                     <div>
