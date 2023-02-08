@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <Container fluid>
 
-            <Work />
+          
 
             <Socialmedia />
 
@@ -94,7 +94,7 @@ const Home = () => {
 
             <About />
 
-
+            <Work />
             <Skills />
             <Testimonials />
 

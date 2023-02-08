@@ -79,7 +79,7 @@ const Work = () => {
             </Col>
 
 
-            <Col xs={12} sm={12} md={10} lg={6}>
+            <Col xs={12} sm={12} md={10} lg={10}>
 
 
 
@@ -87,7 +87,7 @@ const Work = () => {
 
 
                  {MyWord?.map((item,index)=>(
-                      <Col xs={11} sm={11} md={8} lg={6} key={index}  className='margintopandbottom'>
+                      <Col xs={11} sm={6} md={6} lg={4} key={index}  className='margintopandbottom'>
 
 
                       <div className="BackgroundWhite paddingOne flex column borderone boxshadow cursor">
@@ -116,7 +116,7 @@ const Work = () => {
 
                           <div className="">
                               <h1 className="Title fontFamily blackcolor text-align margintopandbottom">{item.name}</h1>
-                              <p className="des-weight des  descolor text-align">
+                              <p className="des-weight des  descolor text-align min-height ">
                                  {item.des}
                               </p>
                           </div>
