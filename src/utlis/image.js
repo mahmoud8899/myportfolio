@@ -36,7 +36,7 @@ import Ecommerce from './image/website/ecommerce.png'
 
 import kingofpre from './image/website/kingofpre.png'
 import latt from './image/website/latt.png'
-
+import location from './image/website/location.png'
 let UrlImage = {
     profile: Profile,
     js: Js,
@@ -73,7 +73,8 @@ let UrlImage = {
     serverside : serverside,
     Ecommerce: Ecommerce,
     kingofpre : kingofpre,
-    latt : latt
+    latt : latt,
+    location : location
 }
 
 export default UrlImage

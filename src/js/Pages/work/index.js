@@ -10,6 +10,15 @@ const Work = () => {
 
 
     let MyWord = [
+
+        {
+            _id: 1,
+            name: 'order food',
+            github: 'https://order-location.onrender.com/',
+            website: 'https://order-location.onrender.com/',
+            des: ' Find the nearby restaurant',
+            image:  UrlImage.location
+        },
         {
             _id: 1,
             name: 'Ecommerce WebDesign',
